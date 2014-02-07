@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Engagement block caps.
+ * learn_analytics block caps.
  *
- * @package    block_engagement
+ * @package    block_learn_analytics
  * @copyright  NetSpot Pty Ltd
  * @author     Adam Olley <adam.olley@netspot.com.au>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $capabilities = array(
 
-    'block/engagement:addinstance' => array(
+    'block/learn_analytics:addinstance' => array(
         'riskbitmask' => RISK_SPAM | RISK_XSS,
 
         'captype' => 'write',

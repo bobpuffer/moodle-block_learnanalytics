@@ -17,12 +17,12 @@
 /**
  * Strings
  *
- * @package    blocks_engagement
+ * @package    blocks_learn_analytics
  * @copyright  NetSpot Pty Ltd
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['engagement:addinstance'] = 'Add an engagement block';
+$string['learn_analytics:addinstance'] = 'Add an learn_analytics block';
 $string['subheading'] = 'Name and the level of risk';
-$string['pluginname'] = 'Engagement analytics';
+$string['pluginname'] = 'learn_analytics analytics';
 $string['viewcoursereport'] = 'View course report';

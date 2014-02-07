@@ -20,7 +20,7 @@
  * @param int $oldversion
  * @param object $block
  */
-function xmldb_block_engagement_upgrade($oldversion) {
+function xmldb_block_learn_analytics_upgrade($oldversion) {
     global $CFG, $DB;
 
     // Moodle v2.4.0 release upgrade line

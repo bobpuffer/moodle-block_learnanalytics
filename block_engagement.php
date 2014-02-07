@@ -17,12 +17,12 @@
 /**
  * Analytics Block
  *
- * @package    blocks_engagement
- * @copyright  2012 NetSpot Pty Ltd
+ * @package    blocks_learn_analytics
+ * @copyright  2014 CLAMP
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-class block_engagement extends block_base {
+class block_learn_analytics extends block_base {
 
     /**
      * Set the initial properties for the block
@@ -75,17 +75,17 @@ class block_engagement extends block_base {
             return $this->content;
         }
 
-        if (!has_capability('report/engagement:view', $this->page->context)) {
+        if (!has_capability('report/learn_analytics:view', $this->page->context)) {
             $this->content = '';
             return $this->content;
         }
 
-        $risks = report_engagement_get_course_summary($COURSE->id);
+        $risks = report_learn_analytics_get_course_summary($COURSE->id);
         $users = $DB->get_records_list('user', 'id', array_keys($risks), '', 'id, firstname, lastname');
 
         // Grab the items to display.
         $this->content = new stdClass();
-        $renderer = $this->page->get_renderer('block_engagement');
+        $renderer = $this->page->get_renderer('block_learn_analytics');
         $this->content->text = $renderer->user_risk_list($risks, $users);
         return $this->content;
     }
