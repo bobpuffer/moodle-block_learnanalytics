@@ -1,30 +1,30 @@
-.block_learn_analytics div.coursereportlink {
+.block_learnanalytics div.coursereportlink {
     text-align: center;
 }
 
-.block_learn_analytics .trafficlight {
+.block_learnanalytics .trafficlight {
     float: left;
     position: relative;
     width: 14px;
     height: 14px;
 }
 
-.block_learn_analytics .risk-level-0 .trafficlight {
-    background: url([[pix:report_learn_analytics|trafficlight]]) 0 0 no-repeat;
+.block_learnanalytics .risk-level-0 .trafficlight {
+    background: url([[pix:report_learnanalytics|trafficlight]]) 0 0 no-repeat;
 }
 
-.block_learn_analytics .risk-level-1 .trafficlight {
-    background: url([[pix:report_learn_analytics|trafficlight]]) 0 -14px no-repeat;
+.block_learnanalytics .risk-level-1 .trafficlight {
+    background: url([[pix:report_learnanalytics|trafficlight]]) 0 -14px no-repeat;
 }
 
-.block_learn_analytics .risk-level-2 .trafficlight {
-    background: url([[pix:report_learn_analytics|trafficlight]]) 0 -28px no-repeat;
+.block_learnanalytics .risk-level-2 .trafficlight {
+    background: url([[pix:report_learnanalytics|trafficlight]]) 0 -28px no-repeat;
 }
 
-.block_learn_analytics .risk-level-3 .trafficlight {
-    background: url([[pix:report_learn_analytics|trafficlight]]) 0 -42px no-repeat;
+.block_learnanalytics .risk-level-3 .trafficlight {
+    background: url([[pix:report_learnanalytics|trafficlight]]) 0 -42px no-repeat;
 }
 
-.block_learn_analytics .risk-level-4 .trafficlight {
-    background: url([[pix:report_learn_analytics|trafficlight]]) 0 -56px no-repeat;
+.block_learnanalytics .risk-level-4 .trafficlight {
+    background: url([[pix:report_learnanalytics|trafficlight]]) 0 -56px no-repeat;
 }

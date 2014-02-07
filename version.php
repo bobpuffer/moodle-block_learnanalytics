@@ -17,7 +17,7 @@
 /**
  * Version info
  *
- * @package    blocks_learn_analytics
+ * @package    blocks_learnanalytics
  * @copyright  2014 CLAMP
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -26,7 +26,7 @@ defined('MOODLE_INTERNAL') || die;
 
 $plugin->version   = 2013090300;       // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2012112900;       // Requires this Moodle version
-$plugin->component = 'block_learn_analytics'; // Full name of the plugin (used for diagnostics).
-$plugin->dependencies = array('mod_learn_analytics' => 2012031400, 'report_learn_analytics' => 2013043000);
+$plugin->component = 'block_learnanalytics'; // Full name of the plugin (used for diagnostics).
+$plugin->dependencies = array('mod_learnanalytics' => 2012031400, 'report_learnanalytics' => 2013043000);
 
 $plugin->maturity = MATURITY_STABLE;

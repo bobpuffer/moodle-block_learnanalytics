@@ -15,28 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * learnanalytics block caps.
+ * Strings
  *
- * @package    block_learnanalytics
+ * @package    blocks_learnanalytics
  * @copyright  NetSpot Pty Ltd
- * @author     Adam Olley <adam.olley@netspot.com.au>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$capabilities = array(
-
-    'block/learnanalytics:addinstance' => array(
-        'riskbitmask' => RISK_SPAM | RISK_XSS,
-
-        'captype' => 'write',
-        'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => array(
-            'editingteacher' => CAP_ALLOW,
-            'manager' => CAP_ALLOW
-        ),
-
-        'clonepermissionsfrom' => 'moodle/site:manageblocks'
-    ),
-);
+$string['learnanalytics:addinstance'] = 'Add a learning analytics block';
+$string['subheading'] = 'Name and the level of risk';
+$string['pluginname'] = 'Learning Analytics';
+$string['viewcoursereport'] = 'View course report';
